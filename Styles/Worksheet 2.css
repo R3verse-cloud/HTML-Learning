@@ -1,0 +1,140 @@
+.uberButton{
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.uberButton:hover{
+    opacity: 0.7;
+}
+
+.amazonButton{
+    background-color: rgb(255, 216, 20);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: black;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.amazonButton:hover{
+    background-color: rgb(240, 204, 25)
+}
+
+.gitButton{
+    background-color: rgb(46, 164, 79);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.gitButton:hover{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Boot1{
+    background-color: rgb(121, 81, 179);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Boot1:hover{
+    background-color: rgb(100, 67, 148);
+}
+
+.Boot2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    font-size: 15px;
+    border-color: rgb(108, 117, 125);
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+        color 0.15s;
+}
+
+.Boot2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.Link1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.Link1:hover{
+    background-color: rgb(9, 75, 141);
+}
+
+.Link2{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: 17px;
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    transition: border-width 0.15s,
+        background-color 0.15s,
+        opacity 0.15s;
+}
+
+.Link2:hover{
+    border-width: 2px;
+    background-color: rgba(94, 144, 194, 0.15);
+}
