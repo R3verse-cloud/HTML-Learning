@@ -1,0 +1,206 @@
+.redBox{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+.greenCircle{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 75px;
+    background-color: green;
+}
+
+.serviceBox{
+    margin-top: 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.02);
+    width: 300px;
+}
+
+.serviceText{
+    margin-left: 15px;
+}
+
+.serviceYes{
+    margin-left: 15px;
+}
+.serviceYes,
+.serviceNo{
+    margin-bottom: 20px;
+}
+
+.youtubeMusic{
+    background-color: rgb(37, 37, 37);
+    width: 395px;
+}
+
+.youtubeMusicTitle{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding-top: 25px;
+    margin-left: 15px;
+}
+
+.youtubeMusicBody{
+    font-family: Arial;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.twitterPost{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    width: 450px;
+    height: 60px;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    display: block;
+}
+
+.twitterProfilePicture{
+    height: 50px;
+    width: 50px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 100px;
+    margin-left: 9px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.twitterPostTextInput{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 280px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.twitterTweetButton{
+    margin-left: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.twitterTweetButton:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.facebookFriendPreview{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Arial;
+    width: 150px;
+    height: 245px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.facebookProfileCardPhoto{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.facebookFriendName{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.facebookMutualFriends{
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.facebookAddFriendButton{
+    margin-left: 5px;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 3px;
+    font-family: Arial;
+    color: white;
+    background-color:rgb(0, 110, 255);
+}
+
+.googlePhoto{
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.googleLogo{
+    width: 300px;
+    height: 80px;
+    object-fit: contain;
+    text-align: center;
+}
+
+.googleSearchBox{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 35px;
+}
+.googleSearch{
+    font-family: Arial;
+    font-size: 16px;
+    width: 500px;
+    padding-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.googleSearchButtons{
+    display:block;
+    text-align: center;
+}
+
+.searchButton{
+    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:none;
+    font-family: Arial;
+    font-weight: bold;
+}
