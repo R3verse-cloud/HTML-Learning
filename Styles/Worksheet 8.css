@@ -1,0 +1,152 @@
+p{
+    font-family: Roboto, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.outerMostBox{
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:rgba(96, 96, 96, 0.3);
+    width: 330px;
+    margin-bottom: 100px;
+}
+
+.TwitterProfileOuterMost{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 320px;
+    margin-top: 0px;
+    vertical-align: middle;
+}
+
+/**
+    Profile Picture Styles
+**/
+.TwitterProfilePictureLayout{
+    vertical-align: middle;
+    width: 75px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.twitterProfilePicture{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+}
+
+
+.TwitterProfileUsernameandInformation{
+    display: inline-block;
+    vertical-align: middle;
+    width: 150px;
+}
+
+/**
+    Username
+**/
+.twitterProfileUsername{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/**
+    Description that sits under the username
+**/
+.twitterProfileDescription{
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+}
+
+.twitterProfileDescription2{
+    margin-top: 5px;
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+}
+
+.TwitterProfileFollowButton{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/**
+    follow button style
+**/
+.twitterFollowButton{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 140, 255)
+}
+
+
+/*****************************************************************************/
+/**THIS IS A SPLITTER AND THIS FILE WILL NOW FOCUS ON THE YOUTUBE STYLESHEET**/
+p{
+    font-family: Roboto, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.youtubeVideoInformation{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+/*Video Title*/
+.youtubeVideoTitle{
+    width: 250px;
+}
+.youtubeVideoTitleBody{
+    text-align: left;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+/*Channel Name*/
+.youtubeVideoChannel{
+    margin-top: 3px;;
+    width: 250px;
+}
+
+.youtubeVideoChannelBody{
+    color:rgba(96, 96, 96, 1);
+    font-size: 15px;
+}
+
+/*Video Stats*/
+.youtubeVideoStats{
+    width: 250px;
+}
+
+.youtubeVideoStats{
+    color:rgba(96, 96, 96, 1);
+    font-size: 15px;
+}
+
+/*Thumbnail Styling*/
+.youtubeVideoThumbnail{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.youtubeVideoThumbnailBody{
+    height: 80px;
+}
